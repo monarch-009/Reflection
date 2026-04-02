@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Reflection - Analysis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<nav>
+  <span class="nav-title">A · E — Reflection</span>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="overview.html">Overview</a></li>
+    <li><a href="patterns.html">Patterns</a></li>
+    <li><a href="evidence.html">Evidence</a></li>
+    <li><a href="analysis.html">Analysis</a></li>
+    <li><a href="suggestions.html">Suggestions</a></li>
+    <li><a href="actions.html">Action Plan</a></li>
+  </ul>
+  <div class="nav-controls">
+    <button class="theme-toggle" id="theme-toggle" title="Dark mode" aria-label="Toggle theme">🌙</button>
+    <div class="nav-hamburger" role="button" aria-label="Menu" tabindex="0">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="overview.html">Overview</a>
+  <a href="patterns.html">Patterns</a>
+  <a href="evidence.html">Evidence</a>
+  <a href="analysis.html">Analysis</a>
+  <a href="suggestions.html">Suggestions</a>
+  <a href="actions.html">Action Plan</a>
+</div>
+
+<!-- DEEP ANALYSIS -->
+<section id="analysis">
+  <p class="section-label fade-in">04 — Deep Analysis</p>
+  <h2 class="section-title fade-in">What is <em>really</em> happening<br>beneath the surface.</h2>
+
+  <!-- BALANCE BARS -->
+  <div class="balance-grid fade-in">
+    <div class="balance-card">
+      <p class="balance-card-title pos">What Works — Strengths</p>
+      <div class="balance-item">
+        <span class="balance-label">Genuine love for each other</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-pos" style="width:95%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Physical / intimate connection</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-pos" style="width:88%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Aditya's acts of service</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-pos" style="width:92%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Shared future planning</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-pos" style="width:75%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Esita's warmth & humour</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-pos" style="width:80%"></div></div>
+      </div>
+    </div>
+    <div class="balance-card">
+      <p class="balance-card-title neg">What Strains — Concerns</p>
+      <div class="balance-item">
+        <span class="balance-label">Recurring conflict without resolution</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-neg" style="width:90%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Late-night emotional damage</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-neg" style="width:85%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Trust erosion over time</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-neg" style="width:78%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Effort imbalance (perceived)</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-neg" style="width:82%"></div></div>
+      </div>
+      <div class="balance-item">
+        <span class="balance-label">Words replacing action (both)</span>
+        <div class="balance-bar-track"><div class="balance-bar-fill fill-neg" style="width:88%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DYNAMIC CHARTS -->
+  <h3 class="section-title fade-in" style="font-size:1.8rem; margin-top:4rem;">Dynamic <em>Relationship State</em></h3>
+  <div class="analysis-body fade-in" style="margin-top:1rem;">
+    <p>Based on the emotional data extracted from the chat history. The top graph shows <strong>Relationship Security</strong> (how well things were going). The bottom graph shows <strong>Volatility & Conflict</strong>.</p>
+  </div>
+  <div class="chart-wrapper fade-in" style="margin: 2.5rem auto 4rem; max-width: 900px; padding: 0 1rem;">
+    <div style="position: relative; height: 280px; width: 100%;">
+      <canvas id="securityChart"></canvas>
+    </div>
+    <div style="position: relative; height: 280px; width: 100%; margin-top: 3rem;">
+      <canvas id="conflictChart"></canvas>
+    </div>
+  </div>
+
+  <div class="analysis-body fade-in">
+    <p><strong>On Aditya:</strong> His love is real, his pain is real, and his frustration is understandable. When you travel 500km repeatedly and feel like you receive 40 minutes in return, the math of love doesn't balance. However, his method of expressing this pain — escalating to ultimatums, using weaponized language like "you're using me," messaging at 1am after the emotional dam breaks — consistently makes resolution harder rather than easier. <span data-tooltip="From March 27 · 01:07am message">His most insightful messages come at the worst possible time.</span></p>
+
+
+    <div class="highlight">
+      <p><strong>Aditya's core wound:</strong> He feels invisible when present and forgotten when absent. Every incident that confirms this — even small ones — lands on an already bruised place. The wound makes him react to 10% threats as if they're 100% abandonments.</p>
+    </div>
+
+    <p><strong>On Esita:</strong> She is navigating a genuinely difficult transition — new city, new job, new independence, family expectations, and a long-distance relationship all simultaneously. The criticism she receives often doesn't account for how hard she is working at all of these things at once. Her patterns — the repeated apologies, the inability to fully prioritize, the quick pivots to affection after conflict — are not signs of not caring. They are signs of someone who hasn't yet learned <em>how</em> to care in the ways this relationship needs.</p>
+
+    <p>Her mother's influence is a real dynamic, not an imagined one. But Aditya's framing of it as "choose your mother or me" misunderstands what he actually wants — which is not for her to abandon her family, but to feel that he occupies a distinct, protected space in her life that the family doesn't automatically override.</p>
+
+    <div class="highlight">
+      <p><strong>Esita's core wound:</strong> She has grown up prioritizing the family's emotional needs over her own. That pattern doesn't disappear overnight, no matter how much she loves him. The apology loop isn't dishonesty — it's the only tool she has for managing conflict that she was never taught to resolve differently.</p>
+    </div>
+
+    <p><strong>On the relationship itself:</strong> The chats from January through April reveal a relationship that is exhausted — not from lack of love, but from fighting the same battles so many times that both people are running on fumes. The tenderness that appears in the February chats, the website he built for her, the joy when they're physically together — these show what the relationship actually contains. The question is whether both people are willing to change <em>how</em> they fight, not whether they love each other.</p>
+  </div>
+
+  <!-- TIMELINE -->
+  <h3 class="section-title fade-in" style="font-size:1.8rem; margin-top:3rem;">Key Moments <em>Timeline</em></h3>
+  <div class="timeline fade-in">
+    <div class="timeline-item">
+      <p class="timeline-date">February 1–4, 2026</p>
+      <p class="timeline-event">The Calm Before the Transition</p>
+      <p class="timeline-note">Daily check-ins, badminton practices, calls between classes. The baseline of the relationship before the massive shift of Esita moving and starting her new role. The connection was simple and grounded.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 9, 2026</p>
+      <p class="timeline-event">Esita Starts Her First Job</p>
+      <p class="timeline-note">New city (Delhi/Gurugram), new PG, new team. He woke up at 6am to wish her &ldquo;Happy New Journey.&rdquo; This was the beginning of the circumstance that would create every subsequent conflict.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 14&ndash;15, 2026</p>
+      <p class="timeline-event">Valentine&rsquo;s Weekend &mdash; The High Point</p>
+      <p class="timeline-note">He visited, gave gifts, spent meaningful time. She called it &ldquo;the best two days of my life.&rdquo; Physical presence resolves what texts cannot. Note: even on Valentine&rsquo;s Day itself, jealousy over a colleague surfaced briefly &mdash; the wound doesn&rsquo;t take days off.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 16, 2026</p>
+      <p class="timeline-event">He Secured Her Google Account</p>
+      <p class="timeline-note">&ldquo;I have turned on your two step verification so if anyone will login you will have the notification.&rdquo; Small, practical, protective. This is how he expresses care between the grand gestures.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 18, 2026</p>
+      <p class="timeline-event">The Emotional Afterglow</p>
+      <p class="timeline-note">Days after the trip, she texted a beautiful, long message thanking him for traveling to her. She wrote, "it was like we were never too far... the hug you gave me was very special." The love was loud and undeniable.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 27, 2026</p>
+      <p class="timeline-event">He Built Her a Personal Website</p>
+      <p class="timeline-note">esitya.vercel.app &mdash; wrote personalized content. She called it &ldquo;beyond words.&rdquo; This is Aditya at his best: love expressed through creation.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">February 28 — March 2, 2026</p>
+      <p class="timeline-event">The Coffee Incident & First Major March Fight</p>
+      <p class="timeline-note">Coffee with a male colleague → triggered jealousy → exploded into accusations of using the relationship. Cycle ran its full five acts in 48 hours.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">March 3, 2026</p>
+      <p class="timeline-event">They Planned Their Engagement</p>
+      <p class="timeline-note">After one of the most difficult weeks in these chats, Esita asked when he planned to get engaged. He answered: &ldquo;Next year on your birthday. Only between us. No family involvement.&rdquo; A complete future plan, mapped out in 3 minutes.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">March 13&ndash;14, 2026</p>
+      <p class="timeline-event">He Came to Delhi &mdash; Left After One Day</p>
+      <p class="timeline-note">Traveled to meet her. Conflict erupted over leave not given. He left early feeling secondary. She begged him to stay. Neither got what they needed.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">March 21, 2026</p>
+      <p class="timeline-event">The YouTube Video Fight</p>
+      <p class="timeline-note">She helped her mummy record a video. He escalated it into a fight about courage, family loyalty, and future compatibility. She held firm &mdash; correctly.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">March 22, 2026</p>
+      <p class="timeline-event">The All-Day Battle + &ldquo;Choose Mummy or Me&rdquo;</p>
+      <p class="timeline-note">One of the longest and most damaging days in these chats. The &ldquo;using me&rdquo; phrase repeated dozens of times. Both said things they couldn&rsquo;t unsay.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">March 26&ndash;27, 2026</p>
+      <p class="timeline-event">The Visit That Broke His Heart</p>
+      <p class="timeline-note">He arrived in Delhi. She was pulled away for 40 minutes by another commitment. He waited. He left. The 1:39am message is the most honest thing written in 90 days.</p>
+    </div>
+    <div class="timeline-item">
+      <p class="timeline-date">April 1&ndash;2, 2026</p>
+      <p class="timeline-event">Tentative Warmth Returns</p>
+      <p class="timeline-note">Gentle messages exchanged. The second number activated &mdash; intimate, playful. The relationship resetting again. The question is what happens differently this time.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-quote">"The problem was never the love. It was the tools they used to express it."</p>
+        <p class="footer-quote-attr">— What lies beneath the surface of every argument.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="index.html">Home</a>
+    <a href="overview.html">Overview</a>
+    <a href="patterns.html">Patterns</a>
+    <a href="evidence.html">Evidence</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="suggestions.html">Suggestions</a>
+    <a href="actions.html">Action Plan</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-note">Aditya &amp; Esita · Relationship Reflection · April 2026 · Private</p>
+      <p class="footer-page-tag">04 — Analysis</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
